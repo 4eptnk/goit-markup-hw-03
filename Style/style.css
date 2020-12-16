@@ -25,7 +25,9 @@ li {
 }
 
 /* header */
-
+.nav-link {
+  display: flex;
+}
 .header-link {
   font-weight: 500;
   font-size: 14px;
@@ -171,7 +173,9 @@ li {
 }
 
 /* about company */
-
+.about-main {
+  display: flex;
+}
 .about-title {
   font-weight: 700;
   font-size: 36px;
