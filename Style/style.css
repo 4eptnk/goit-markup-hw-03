@@ -244,11 +244,15 @@ li {
 
 /* our command */
 .our-command {
-  width: 1600px;
+  background-color: #f5f4fa;
 }
 .cmd-section {
   margin-top: 0;
   margin-bottom: 0;
+}
+.cmd-section > .cmd-container {
+  display: flex;
+  align-items: center;
 }
 .cmd-container {
   font-weight: 500;
@@ -256,6 +260,12 @@ li {
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
+
+  width: 270px;
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 .cmd-title {
   font-weight: 700;
@@ -264,6 +274,8 @@ li {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-black-color);
+
+  padding-top: 50px;
 }
 .cmd-container > h3 {
   font-weight: inherit;
