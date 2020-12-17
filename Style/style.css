@@ -27,12 +27,9 @@ li {
 }
 
 /* header */
-header {
-  height: 80px;
-}
 .container-nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
 }
 .header-link {
@@ -49,6 +46,11 @@ header {
 }
 .nav-link :not(:last-child) {
   margin-right: 50px;
+}
+.nav-link {
+  padding-inline-start: 0;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 .header-link {
   font-weight: 500;
@@ -155,6 +157,7 @@ header {
 
 .hero-section {
   background-color: var(--bcg-main-color);
+  height: 600px;
 }
 .hero-container {
   display: flex;
@@ -169,6 +172,8 @@ header {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--main-title-color);
+
+  margin-top: 200px;
 }
 .hero-button {
   font-weight: 700;
@@ -181,18 +186,27 @@ header {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: none;
+
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
 }
 
 /* features */
 .features-container {
   display: flex;
-  flex-wrap: wrap;
+  align-items: baseline;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.features-container :not(:last-child) {
+  padding-right: 30px;
 }
 .features-item {
   display: block;
   flex-basis: calc(100% / 4 - 10px);
-  padding-top: 94px;
-  padding-right: 30px;
+  margin-top: 94px;
   justify-content: center;
 }
 .features-title {
@@ -212,8 +226,12 @@ header {
 }
 
 /* about company */
+.about-main :not(:last-child) {
+  padding-right: 30px;
+}
 .about-main {
   display: flex;
+  justify-content: center;
 }
 .about-title {
   font-weight: 700;
@@ -225,7 +243,13 @@ header {
 }
 
 /* our command */
-
+.our-command {
+  width: 1600px;
+}
+.cmd-section {
+  margin-top: 0;
+  margin-bottom: 0;
+}
 .cmd-container {
   font-weight: 500;
   font-size: 16px;
