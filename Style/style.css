@@ -26,7 +26,14 @@ li {
   list-style: none;
 }
 
+.container {
+  width: 1170;
+  margin: 0 auto;
+}
 /* header */
+header {
+  border: 1px solid #ececec;
+}
 .container.nav {
   display: flex;
   justify-content: space-evenly;
@@ -34,12 +41,13 @@ li {
 }
 .header-link {
   display: block;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .nav-link,
 .connection {
   display: flex;
+  padding: 0;
 }
 .anchor {
   margin-right: 331px;
@@ -48,7 +56,6 @@ li {
   margin-right: 50px;
 }
 .nav-link {
-  padding-inline-start: 0;
   margin-top: auto;
   margin-bottom: auto;
 }
@@ -73,16 +80,16 @@ li {
 }
 .contacts .header-tel {
   display: block;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
 }
 .contacts .header-mail {
   display: block;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
@@ -104,9 +111,13 @@ li {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--main-text-color);
+  color: #f5f4fa;
   border-radius: 4px;
-  border-color: none;
+  border: 0;
+  padding: 6px 22px;
+  min-width: 73px;
+  display: inline-block;
+  outline: transparent;
 }
 .port-button :active,
 .port-button :hover {
@@ -116,6 +127,7 @@ li {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-color: var(--main-logo-color);
+  outline: transparent;
 }
 .port-container .port-title {
   font-weight: 700;
@@ -157,7 +169,6 @@ li {
 
 .hero-section {
   background-color: var(--bcg-main-color);
-  height: 600px;
 }
 .hero.container {
   display: flex;
@@ -173,7 +184,7 @@ li {
   text-transform: uppercase;
   color: var(--main-title-color);
 
-  margin-top: 200px;
+  margin-top: auto;
 }
 .hero-button {
   font-weight: 700;
@@ -265,6 +276,7 @@ li {
   text-align: center;
   letter-spacing: 0.03em;
 
+  margin-bottom: 94px;
   width: 270px;
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -323,6 +335,6 @@ li {
 .footer-address {
   margin-top: 20px;
 }
-.contacts {
+.contacts.footer {
   margin-top: 9px;
 }
