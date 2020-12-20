@@ -13,6 +13,7 @@ html *,
   --bcg-main-color: #2f303a;
 }
 ul {
+  margin: 0px;
   padding-inline-start: 0px;
 }
 body {
@@ -281,6 +282,7 @@ header {
 /* our command */
 .container.cmd {
   padding: 0px;
+  padding-bottom: 94px;
 }
 .our-command {
   background-color: #f5f4fa;
@@ -327,8 +329,11 @@ header {
   letter-spacing: 0.03em;
   color: var(--main-text-color);
 }
-.cmd.container :not(:last-child) {
+.wrk-container {
   margin-right: 30px;
+}
+.wrk-container:last-child {
+  margin-right: 0px;
 }
 /* footer */
 .container.footer {
@@ -357,12 +362,16 @@ header {
   letter-spacing: 0.03em;
   color: var(--main-title-color);
 }
+.footer-box {
+  margin-top: -16px;
+}
 .footer-logo {
   margin-top: 60px;
 }
-.footer-address {
-  margin-top: 20px;
-}
 .contacts.footer {
   margin-top: 9px;
+}
+.ftr-address {
+  margin-top: 20px;
+  margin-bottom: 60px;
 }
