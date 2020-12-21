@@ -32,7 +32,9 @@ button {
   cursor: pointer;
 }
 .container {
-  width: 1170px;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -102,20 +104,23 @@ header {
 }
 
 /* portfolio */
+.port-section {
+  padding-top: 81px;
+  padding-bottom: 94px;
+}
 .title-container {
   padding: 20px 24px 20px 24px;
 }
 .btn-container {
   display: flex;
   justify-content: center;
-  margin: 81px auto 50px auto;
-  padding: 0px;
+  padding-bottom: 50px;
 }
 .btn-container :not(:last-child) {
   margin-right: 8px;
 }
 .port-button > button {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
@@ -137,7 +142,6 @@ header {
   padding: 0px;
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 94px;
 }
 .port-container {
   border: 1px solid #eeeeee;
@@ -195,6 +199,8 @@ header {
 
 .hero-section {
   background-color: var(--bcg-main-color);
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .hero.container {
   display: flex;
@@ -209,8 +215,7 @@ header {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--main-title-color);
-
-  margin-top: 200px;
+  margin: 0px;
 }
 .hero-button {
   font-weight: 700;
@@ -226,13 +231,11 @@ header {
 
   width: 200px;
   height: 50px;
-  left: 700px;
-  top: 430px;
-  margin: 30px auto 200px auto;
+  margin-top: 30px;
 }
 /* feature */
-.container.features {
-  margin: 94px auto auto auto;
+.features {
+  padding-top: 94px;
 }
 .features-container {
   display: flex;
@@ -263,7 +266,8 @@ header {
 
 /* about company */
 .about-company {
-  margin: 94px auto 94px auto;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .about-main :not(:last-child) {
   margin-right: 30px;
@@ -280,15 +284,15 @@ header {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-black-color);
+  margin: 0px;
+  padding-bottom: 50px;
 }
 
 /* our command */
-.container.cmd {
-  padding: 0px;
-  padding-bottom: 94px;
-}
 .our-command {
   background-color: #f5f4fa;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .wrk-section {
@@ -296,7 +300,6 @@ header {
   justify-content: center;
 }
 .cmd-title {
-  padding-top: 94px;
   padding-bottom: 50px;
   margin: 0px;
 
@@ -346,6 +349,8 @@ header {
 
 .footer-section {
   background-color: var(--bcg-main-color);
+  padding-bottom: 60px;
+  padding-top: 60px;
 }
 .contacts .footer-tel {
   line-height: 1.71;
@@ -364,17 +369,11 @@ header {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--main-title-color);
-}
-.footer-box {
-  margin-top: -16px;
-}
-.footer-logo {
-  margin-top: 60px;
+  margin: 0px;
 }
 .contacts.footer {
-  margin-top: 9px;
+  padding-top: 9px;
 }
 .ftr-address {
-  margin-top: 20px;
-  margin-bottom: 60px;
+  padding-top: 20px;
 }
