@@ -342,6 +342,9 @@ header {
   margin-right: 0px;
 }
 /* footer */
+.logo.footer {
+  margin: 0px;
+}
 .container.footer {
   display: flex;
   flex-direction: column;
